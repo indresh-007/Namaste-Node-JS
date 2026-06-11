@@ -14,7 +14,8 @@ export function calculateSum(a, b) {
 // console.log("Sum Module Executed");
 
 // commonJS Module
- 
+require("../xyz.js");
+
 function calculateSum(a, b) {
     const sum = a + b;
 
@@ -23,3 +24,6 @@ function calculateSum(a, b) {
 
 
 module.exports = { calculateSum };
+
+// module.exports.x = x;
+// module.exports.calculateSum = calculateSum
